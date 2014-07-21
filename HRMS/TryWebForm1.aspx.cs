@@ -16,7 +16,7 @@ namespace HRMS
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            TextBox1.Text = "You have been click the button !"
+            TextBox1.Text = "Tran Hai Nam";
         }
     }
 }
