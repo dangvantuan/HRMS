@@ -65,10 +65,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TryWebForm1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TryWebForm1.aspx.cs">
+      <DependentUpon>TryWebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TryWebForm1.aspx.designer.cs">
+      <DependentUpon>TryWebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
